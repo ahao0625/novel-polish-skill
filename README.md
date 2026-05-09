@@ -64,20 +64,22 @@ novel-polish/
 
 ### WorkBuddy
 
-将本仓库克隆到 WorkBuddy 技能目录：
+下载 zip 解压到 WorkBuddy 技能目录：
 
 ```bash
-git clone https://github.com/ahao0625/novel-polish-skill.git ~/.workbuddy/skills/novel-polish
+# 1. 下载并解压
+unzip novel-polish-skill.zip -d ~/.workbuddy/skills/
+# 2. 触发：在 WorkBuddy 中说"帮我润色这段"
 ```
-
-然后在 WorkBuddy 中直接说"帮我润色这段"即可触发。
 
 ### Trae IDE（项目级）
 
-克隆到项目目录：
+解压到项目目录：
 
 ```bash
-git clone https://github.com/ahao0625/novel-polish-skill.git /你的项目根目录/.trae/skills/novel-polish
+# 1. 下载并解压
+unzip novel-polish-skill.zip -d /你的项目根目录/.trae/skills/
+# 2. 触发：在 Trae 中说"帮我润色这段"
 ```
 
 或在项目根目录下手动创建 `.trae/skills/novel-polish/` 并将本仓库文件放入。
