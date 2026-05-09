@@ -50,9 +50,6 @@ novel-polish/
 ├── SKILL.md                        # 核心技能文件（工作流 + 规范 + 交互）
 ├── README.md                       # 本文件
 ├── .gitignore
-├── assets/
-│   ├── wechat-qr.png               # 微信赞赏码
-│   └── alipay-qr.png               # 支付宝收款码
 └── references/
     ├── polish-logic.md             # 判断脚手架（情绪/人感/直接描写/句式/放过）
     └── author-styles.md            # 热门作家风格速查（A细腻/B热血/C代入）
@@ -118,26 +115,6 @@ git clone https://github.com/ahao0625/novel-polish-skill.git ~/.workbuddy/skills
 ```
 
 在 WorkBuddy 中说"帮我记住，我写都市爽文，节奏快"即可建立。
-
----
-
-## ☕ 支持一下
-
-如果这个技能对你有帮助，欢迎：
-
-- ⭐ 给项目点个 **Star**
-- ☕ 赞助一杯咖啡，鼓励持续维护
-
-<table>
-  <tr>
-    <td align="center"><b>微信</b></td>
-    <td align="center"><b>支付宝</b></td>
-  </tr>
-  <tr>
-    <td><img src="assets/wechat-qr.png" width="200" alt="微信赞赏码"></td>
-    <td><img src="assets/alipay-qr.png" width="200" alt="支付宝收款码"></td>
-  </tr>
-</table>
 
 ---
 
