@@ -62,29 +62,35 @@ novel-polish/
 
 ## 安装
 
-### WorkBuddy
+### 方式一：下载 ZIP（推荐）
 
-下载 zip 解压到 WorkBuddy 技能目录：
+从 GitHub 仓库下载 ZIP 压缩包：
+
+```
+https://github.com/ahao0625/novel-polish-skill
+```
+
+点击页面右上角绿色 **Code** 按钮 → **Download ZIP**，然后解压到对应目录：
+
+#### WorkBuddy
 
 ```bash
-# 1. 下载并解压
 unzip novel-polish-skill.zip -d ~/.workbuddy/skills/
-# 2. 触发：在 WorkBuddy 中说"帮我润色这段"
+# 完成后，在 WorkBuddy 中说"帮我润色这段"即可触发
 ```
 
-### Trae IDE（项目级）
-
-解压到项目目录：
+#### Trae IDE（项目级）
 
 ```bash
-# 1. 下载并解压
 unzip novel-polish-skill.zip -d /你的项目根目录/.trae/skills/
-# 2. 触发：在 Trae 中说"帮我润色这段"
+# 完成后，在 Trae 中说"帮我润色这段"即可触发
 ```
 
-或在项目根目录下手动创建 `.trae/skills/novel-polish/` 并将本仓库文件放入。
+### 方式二：git clone
 
-然后在 Trae 中说"帮我润色这段"即可触发。
+```bash
+git clone https://github.com/ahao0625/novel-polish-skill.git ~/.workbuddy/skills/novel-polish
+```
 
 ---
 
