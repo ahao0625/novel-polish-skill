@@ -62,17 +62,25 @@ novel-polish/
 
 ## 安装
 
-### WorkBuddy（全局）
+### WorkBuddy
 
-本技能已安装在 `~/.workbuddy/skills/novel-polish/`，在 WorkBuddy 中直接使用"润色"、"打磨"等关键词即可触发。
+将本仓库克隆到 WorkBuddy 技能目录：
+
+```bash
+git clone https://github.com/ahao0625/novel-polish-skill.git ~/.workbuddy/skills/novel-polish
+```
+
+然后在 WorkBuddy 中直接说"帮我润色这段"即可触发。
 
 ### Trae IDE（项目级）
 
-将本仓库克隆或复制到项目根目录的 `.trae/skills/` 下：
+克隆到项目目录：
 
 ```bash
-cp -r novel-polish /你的项目根目录/.trae/skills/
+git clone https://github.com/ahao0625/novel-polish-skill.git /你的项目根目录/.trae/skills/novel-polish
 ```
+
+或在项目根目录下手动创建 `.trae/skills/novel-polish/` 并将本仓库文件放入。
 
 然后在 Trae 中说"帮我润色这段"即可触发。
 
